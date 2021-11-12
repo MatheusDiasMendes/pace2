@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body><br>
+    <section>
+        <div>
+            <header>
+                <h2>Desempenho</h2>
+            </header>
+             
+                <nav>
+                    <label style="color: white;">Preencha seu nome</label><br><br>
+                    <input type="text" class="box btn btn-light" id= "nome" placeholder = "Ex: Matheus" required="required"><br><br>
+        
+                    <label style="color: white;">Preencha seu Peso</label><br><br>
+                    <input type="number" class="box btn btn-light" id= "peso" placeholder = "Ex: 82kg" required="required"><br><br>
+
+                    <label style="color: white;">Preencha distancia</label><br><br>
+                    <input type="number" class="box btn btn-light" id= "distancia" placeholder = "Ex: 10 Km" required="required"><br><br>
+        
+                    <label style="color: white;">Preencha o tempo</label><br><br>
+                    <input type="time" name="timer" step = "1" class="box btn btn-light" id= "time" placeholder = "Ex: 10:32:45" required="required"><br><br><br>
+        
+                    <button type="button" class="butao btn-outline-primary" onclick="pace()" id="verificar">Verificar</button>
+                    <!--<button type="button" class="butao1 btn-outline-danger" oClick="limpar()" id="limpar">Limpar</button>-->
+                </nav>
+
+            <article>
+                    <img src="download.jpg" class="img"><br><br>
+                    <p>Imagens Meramente Ilustrativas</p>
+                    <p style="color: black;">&copy; Cotemig</p>
+                <footer>
+                    <p id = "texto"></p>
+                </footer>  
+
+            </article><br><br>
+
+                <!--<div class="result" id='resultado'></div>-->
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
